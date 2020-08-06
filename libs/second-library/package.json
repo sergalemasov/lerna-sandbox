@@ -4,6 +4,7 @@
   "license": "MIT",
   "dependencies": {
     "jquery": "3.5.1",
-    "lodash": "4.17.14"
+    "lodash": "4.17.14",
+    "@lerna-sandbox/first-library": "0.0.2"
   }
 }
