@@ -1,9 +1,9 @@
 {
   "name": "@lerna-sandbox/second-library",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "dependencies": {
-    "@lerna-sandbox/first-library": "^0.0.5",
+    "@lerna-sandbox/first-library": "^0.0.6",
     "jquery": "3.5.1",
     "lodash": "4.17.14"
   }
