@@ -1,5 +1,8 @@
 {
   "name": "@lerna-sandbox/second-library",
   "version": "0.0.2",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "4.17.15"
+  }
 }
