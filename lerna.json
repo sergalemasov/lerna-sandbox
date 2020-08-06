@@ -3,6 +3,9 @@
   "command": {
     "bootstrap": {
       "npmClientArgs": ["--no-package-lock"]
+    },
+    "version": {
+      "noPush": true
     }
   },
   "packages": [
