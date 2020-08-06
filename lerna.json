@@ -1,4 +1,10 @@
 {
+  "npmClient": "npm",
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  },
   "packages": [
     "libs/*"
   ],
