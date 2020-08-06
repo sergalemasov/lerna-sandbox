@@ -5,7 +5,7 @@
       "npmClientArgs": ["--no-package-lock"]
     },
     "version": {
-      "noPush": true
+      "no-push": true
     }
   },
   "packages": [
