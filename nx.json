@@ -17,6 +17,12 @@
     "first-app-e2e": {
       "tags": [],
       "implicitDependencies": ["first-app"]
+    },
+    "first-library": {
+      "tags": []
+    },
+    "second-library": {
+      "tags": []
     }
   }
 }

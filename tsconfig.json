@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@lerna-sandbox/first-library": ["libs/first-library/src/index.ts"],
+      "@lerna-sandbox/second-library": ["libs/second-library/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

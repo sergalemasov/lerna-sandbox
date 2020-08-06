@@ -119,6 +119,60 @@
           }
         }
       }
+    },
+    "first-library": {
+      "projectType": "library",
+      "root": "libs/first-library",
+      "sourceRoot": "libs/first-library/src",
+      "prefix": "lerna-sandbox",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/first-library/tsconfig.lib.json",
+              "libs/first-library/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/first-library/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/first-library/jest.config.js",
+            "tsConfig": "libs/first-library/tsconfig.spec.json",
+            "setupFile": "libs/first-library/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {}
+    },
+    "second-library": {
+      "projectType": "library",
+      "root": "libs/second-library",
+      "sourceRoot": "libs/second-library/src",
+      "prefix": "lerna-sandbox",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/second-library/tsconfig.lib.json",
+              "libs/second-library/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/second-library/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/second-library/jest.config.js",
+            "tsConfig": "libs/second-library/tsconfig.spec.json",
+            "setupFile": "libs/second-library/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {}
     }
   },
   "cli": {
