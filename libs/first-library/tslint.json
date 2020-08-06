@@ -1,7 +1,0 @@
-{
-  "extends": "../../tslint.json",
-  "rules": {
-    "directive-selector": [true, "attribute", "lernaSandbox", "camelCase"],
-    "component-selector": [true, "element", "lerna-sandbox", "kebab-case"]
-  }
-}

@@ -6,7 +6,6 @@
       "schematics": {},
       "root": "apps/first-app",
       "sourceRoot": "apps/first-app/src",
-      "prefix": "lerna-sandbox",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
